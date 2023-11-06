@@ -397,8 +397,8 @@ img {
   position: relative;
   top: -200px;
   font-size: 25px;
-  padding-left: 950px;
-
+  padding-right: 50px;
+  text-align: right;
 }
 
 
