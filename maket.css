@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&family=Tinos&display=swap');
+
+
+
+.header-bg {
+  background-color: #1d1e1f;
+  height: 85px;
+  width: cover;
+}
+
+.header-tile a {
+  color: #fff;
+}
+
+.header-title a:hover {
+  color: #93b4b8
+}
+
+.header-title {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5px;
+  position: relative;
+  top: -42.5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 13px;
+}
+
+.search {
+  margin-left: 80px;
+  background-color: #1d1e1f;
+  height: 10px;
+  width: 50px;
+}
+
+.search input {
+  background-color: #1d1e1f;
+  border: 1px solid #505257;
+  height: 30px;
+  width: 200px;
+  color: #56585c;
+  padding-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  position: relative;
+  top: -6px;
+}
+
+
+
+
+
+
+
+
+.h-main-bg {
+  background-image: url(https://iso.500px.com/wp-content/uploads/2015/10/500px-wallpaper-desktop-1500x1000.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: cover;
+  background-size: 100%;
+  position: relative;
+  top: -15px;
+}
+
+
+.h-main-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: #b01738;
+  position: relative;
+  top: -360px;
+  padding-left: 30px;
+
+}
+
+.h-main-title span {
+  font-size: 35px;
+}
+
+
+.h-main a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  transition: all 0.4s;
+}
+
+.h-main a:hover {
+  color:
+}
+
+.h-main-btn {
+  color: #fff;
+  display: flex;
+  padding-left: 30px;
+  position: relative;
+  top: -340px;
+}
+
+.btn-man {
+
+  background-color: #b01738;
+  height: 35px;
+  width: 120px;
+
+
+
+}
+
+
+.btn-wmn {
+  margin-left: 15px;
+  background-color: #b01738;
+  height: 35px;
+  width: 120px;
+
+
+}
+
+.btn-child {
+  margin-left: 15px;
+  background-color: #b01738;
+  height: 35px;
+  width: 120px;
+
+
+}
+
+.h-main-btn a:hover {
+  box-shadow: 5px 5px 40px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&family=Playfair+Display:wght@400;600;700&family=Tinos&display=swap');
+
+
+
+
+.product-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: -130px;
+  color: #000;
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+
+}
+
+
+
+.product-card hr {
+  position: relative;
+  top: 30px;
+}
+
+
+
+.card-1:hover {
+  border: 1px solid silver;
+  box-shadow: 5px 5px 190px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-2:hover {
+  border: 1px solid silver;
+  box-shadow: 5px 5px 190px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-3:hover {
+  border: 1px solid silver;
+  box-shadow: 5px 5px 190px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-4:hover {
+  border: 1px solid silver;
+  box-shadow: 5px 5px 190px 10px rgba(0, 0, 0, 0.3);
+}
+/* .container-1 {
+  width: 300px;
+}
+
+.container-1:hover {
+  border: 1px solid silver;
+} */
+
+.card-1 {
+  /* background-image: url(https://img5.lalafo.com/i/posters/original/b2/5d/3e/ea4a4ffb96a5972fc84dc5ac55.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  height: 385px;
+  width: 220px;
+  /* margin-left: 70px; */
+  position: relative;
+  border: 1px solid transparent;
+  transition:  0.5s;
+}
+
+
+.card-2 {
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBGca5c3js4dRvZDr998KGPfvu22B2GIUf0w&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  height: 385px;
+  width: 220px;
+  margin-left: 70px;
+  position: relative;
+  border: 1px solid transparent;
+  transition:  0.5s;}
+
+.card-3 {
+  /* background-image: url(https://i.pinimg.com/550x/7b/3d/a1/7b3da1f08624a4f885724669cd10f66c.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  height: 385px;
+  width: 220px;
+  margin-left: 70px;
+  position: relative;
+  border: 1px solid transparent;
+  transition:  0.5s;
+}
+
+.card-4 {
+  /* background-image: url(https://socialniesety.ru/files/images/components/articles_journal/originals/instagram/127/instagram_ideas_82.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  height: 385px;
+  width: 220px;
+  margin-left: 70px;
+  position: relative;
+  border: 1px solid transparent;
+  transition:  0.5s;
+}
+
+
+
+.product-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #454040;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  position: relative;
+  /* top: -500px; */
+}
+
+
+.info-1 {
+  /* margin-left: 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #454040;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  position: relative;
+  top: 40px;
+}
+
+.info-2 {
+  /* margin-left: 95px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #454040;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  position: relative;
+  top: 40px;
+}
+
+.info-3 {
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #454040;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  position: relative;
+  top: 40px;
+}
+
+.info-4 {
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #454040;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  position: relative;
+  top: 40px;
+}
+
+
+.product-cost {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  position: relative;
+  /* top: 45px; */
+}
+
+.product-cost span {
+  text-decoration: line-through;
+}
+
+.cost-1 {
+  position: relative;
+  top: 65px;
+}
+
+.cost-2 {
+  position: relative;
+  top: 65px;
+}
+
+.cost-3 {
+  position: relative;
+  top: 65px;
+}
+
+.cost-4 {
+  position: relative;
+  top: 65px;
+}
+
+
+
+
+img {
+  position: relative;
+  top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.f-main {
+  font-family: 'Playfair Display', serif;
+  color: #306269;
+}
+
+
+
+.new-collection-bg {
+  background-image: url(https://i.stack.imgur.com/90nGa.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+
+.new-collection-title {
+  position: relative;
+  top: -450px;
+  padding-left: 200px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.new-collection-subtitle {
+  position: relative;
+  top: -200px;
+  font-size: 25px;
+  padding-left: 950px;
+
+}
+
+
+.new-collection-btn a {
+  position: relative;
+  margin-left: 200px;
+  padding: 10px 25px;
+  color: #93b4b8;
+  top: -470px;
+  background-color: #306269;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  transition: all 0.4s;
+}
+
+.new-collection-btn a:hover {
+  color: #fff;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+.footer {
+  background-color: #1d1e1f;
+  height: 120px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
